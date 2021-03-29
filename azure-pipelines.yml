@@ -27,6 +27,6 @@ steps:
     resourceGroupName: 'mydevops-rg'
     location: 'China East'
     templateLocation: 'Linked artifact'
-    csmFile: 'https://raw.githubusercontent.com/LuBu0505/ARM/blob/main/azuredeploy.json'
+    csmFile: 'https://raw.githubusercontent.com/LuBu0505/ARM/main/azuredeploy.json'
     deploymentMode: 'Incremental'
     deploymentName: 'mydevopstest'
