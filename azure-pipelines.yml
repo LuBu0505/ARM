@@ -26,7 +26,7 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'mydevops-rg'
     location: 'China East'
-    templateLocation: 'Linked artifact'
+    templateLocation: 'URL of the file'
     csmFile: 'https://raw.githubusercontent.com/LuBu0505/ARM/main/azuredeploy.json'
     deploymentMode: 'Incremental'
     deploymentName: 'mydevopstest'
