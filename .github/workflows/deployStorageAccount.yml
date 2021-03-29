@@ -9,6 +9,7 @@ jobs:
     - uses: actions/checkout@main
 
       # Log into Azure
+    - uses: az cloud set --name AzureChinaCloud
     - uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
